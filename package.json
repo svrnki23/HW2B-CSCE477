@@ -1,0 +1,11 @@
+{
+  "name": "csce477-simple-login-form",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small HTML/JavaScript login form with client and server validation for CSCE 477 practice.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" }
+}
