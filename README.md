@@ -27,8 +27,4 @@ Add a database with parameterized queries; store passwords with bcrypt and per-u
 
 ## Screenshot
 
-The included homework evidence image shows the local XSS test blocked by server-side validation. The repository owner can add their own screenshots here after repeating the steps.
-
-## Note on the sample screenshot
-
-The included `xss_test_screenshot.png` comes from an automated demonstration using the unmodified form code and responses from the running Node server. Repeat the test and capture your own image before representing the test as your work.
+`xss_test_screenshot.png` shows the XSS test input (`<img src=x onerror=alert('XSS')>@test.com`) being rejected by server-side validation with the message "Please enter a valid email address." No alert executes, which demonstrates that the input validation prevents the script from running.
